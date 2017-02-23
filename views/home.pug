@@ -29,11 +29,11 @@ html
           .col-md-6
             .title
               // h1>We bring your survey to life</h1
-              h1.margin-right CONVIERTE TU CUESTIONARIO EN UN CHAT
+              h1.margin-right TEST CHAT CON SURVEY 
               a.btn.pull-right(id="try-survey") PROBAR APP
               .btn
                 if user
-                  a.btn.btn-q-white-trans(href='/forms') Tus Formularios
+                  a.btn.btn-q-white-trans(href='/forms') Formularios
                 else
                   a.btn.btn-q-white-trans(href='/signup') Ingresar
                 a.btn.btn-q-white-trans(href='//www.youtube.com/watch?v=bJnh3ePaQsc' data-lity) Mira este video
@@ -51,7 +51,7 @@ html
       $().ready(function() {
       Smooch.init({
       appToken: 'elfng4jb4h9ctk53soi3fyets',
-      imageUploadEnabled: false,
+      imageUploadEnabled: true,
       customText: {
       headerText: 'proba esto ahora!',
       introductionText: 'este es un texto de prueba'
